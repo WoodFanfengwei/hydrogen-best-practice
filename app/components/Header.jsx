@@ -12,7 +12,7 @@ export function Header({header, isLoggedIn, cart, publicStoreDomain}) {
     <header className="header">
       <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
         <strong>{shop.name}</strong>
-        <p>This is a best practice for Hydrogen</p>
+        <i>This is a best practice for Hydrogen!</i>
       </NavLink>
       <HeaderMenu
         menu={menu}
